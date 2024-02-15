@@ -37,11 +37,29 @@ main {
     clear: left;
 }
 main h3 {
-    margin-top: 3em;
+    margin-top: 3em 2em 1.5em;
+    border:5% double blue;
+    border-radius: 20%;
+    box-shadow:3px 3px 4px 4px red ;
+    padding: 1em;
     font-size: 105%;
+}
+main nav {
+margin: 1.5em,2em 1.5em;
+border: 5% dashed blue;
+border-radius: 20px;
+box-shadow: 3px 3px 4px 4px;
+padding:1em;
 }
 #list {
     line-height: 1.5em;
+}
+div.contact{
+    margin:1.5em 2em 0 2em;
+    border: 5px dotted blue;
+    box-shadow: 3px 3px 4px 4px green;
+    padding: 1em;
+
 }
 footer p.copyright {
     text-align: center;
