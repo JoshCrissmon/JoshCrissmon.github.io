@@ -2,7 +2,7 @@ html {
     background-image: linear-gradient(to bottom, white 0%, #facd8a 100%)
 }
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif, serif;
     font-size: 100%;
     margin-left: 10px;
     width: 1000px;
@@ -38,17 +38,17 @@ main {
 }
 main h3 {
     margin-top: 3em 2em 1.5em;
-    border:5% double blue;
+    border:5px double rgb(15, 194, 249);
     border-radius: 20%;
-    box-shadow:3px 3px 4px 4px red ;
+    box-shadow:3px 3px 4px 4px rgb(0, 255, 157) ;
     padding: 1em;
     font-size: 105%;
 }
 main nav {
 margin: 1.5em,2em 1.5em;
-border: 5% dashed blue;
+border: 5px dashed blue;
 border-radius: 20px;
-box-shadow: 3px 3px 4px 4px;
+box-shadow: 3px 3px 4px 4px white;
 padding:1em;
 }
 #list {
