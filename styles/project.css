@@ -6,8 +6,8 @@ body {
     font-size: 100%;
     width: 90px;
     background-color:white;
-    margin:15px auto;
-    padding:15px 1.5em; 
+    margin: 15px auto;
+    padding: 15px 1.5em; 
     border:1px solid black;
     border-radius:25px ;
     box-shadow:5px 5px 0 0 ;
@@ -64,8 +64,8 @@ aside {
     background-color: #ffebc6;
 }
 footer {
-    clear:both;
-    border-top: 2px solid green;
+    clear: both;
+    border-top: 2px solid rgb(8, 213, 250);
 }
 footer p.copyright {
     text-align: center;
@@ -78,5 +78,6 @@ p.fixed {
     right: 0;
     border: 3px solid darkgreen;
     background-color: turquoise;
+    padding-bottom: 20px 1.5em;
 
 }
