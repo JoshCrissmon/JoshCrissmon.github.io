@@ -4,7 +4,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif, serif;
     font-size: 100%;
-    width: 90px;
+    width: 90%;
     background-color:white;
     margin: 15px auto;
     padding: 15px 1.5em; 
@@ -17,6 +17,9 @@ a:focus, a:hover {
     color:aquamarine;
     border:3px blue;
     border-style: dotted solid;
+}
+header {
+    border-bottom: 1px solid turquoise;
 }
 header h1 {
     font-size: 175%;
@@ -40,7 +43,7 @@ article {
     width: 70%;
     float: left;
     column-count: 2;
-    column-rule:2 px dotted blue;
+    column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
 }
@@ -62,6 +65,7 @@ aside {
     width: 20%;
     float: right;
     background-color: #ffebc6;
+    padding: 5px;
 }
 footer {
     clear: both;
@@ -78,6 +82,6 @@ p.fixed {
     right: 0;
     border: 3px solid darkgreen;
     background-color: turquoise;
-    padding-bottom: 20px 1.5em;
+    padding: 2em;
 
 }
